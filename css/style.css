@@ -1,0 +1,51 @@
+body {
+  background: #FFCC00;
+  background: -moz-linear-gradient(top,  #ffcc00 0%, #2989d8 54%, #c96cb3 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  #ffcc00 0%,#2989d8 54%,#c96cb3 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  #ffcc00 0%,#2989d8 54%,#c96cb3 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+h1{
+  color: purple;
+  background: pink;
+  text-align: right;
+  text-indent: 5px;
+}
+
+p, li{
+    font-size: 1.4em;
+}
+  .facts{
+    background: green;
+}
+  .facts li {
+    float: left;
+    width: 33%;
+}
+  .facts .important{
+    font-size: 2em;
+    color: red;
+}
+
+.col-md {
+    background: pink;
+    border: 5px dotted: grey;
+}
+.dogfashion h3 {
+  background: white;
+}
+
+@media only screen and (max-width: 600px) {
+
+  body {
+    background: purple;
+  }
+  img {
+    width: 100%;
+  }
+    .facts li{
+    float: left;
+    width: 100%;
+  }
+  
+}
